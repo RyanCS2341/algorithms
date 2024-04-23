@@ -5,7 +5,7 @@ def methodName() -> None:
 
 class TestMethodName(unittest.TestCase):
 
-    def test_methodName_oneunique(self):
+    def test_methodName_success(self):
         return 1
 
 if __name__ == "__main__":
