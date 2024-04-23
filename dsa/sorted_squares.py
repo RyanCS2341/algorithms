@@ -7,7 +7,7 @@ def sortedSquares(s: list[int]) -> list[int]:
     squared.sort()
     return squared
 
-class TestContainsSum(unittest.TestCase):
+class TestSortedSquares(unittest.TestCase):
 
     def test_sortedSquares_non_positive(self):
         s = [-4, 4, 0]

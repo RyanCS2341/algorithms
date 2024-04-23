@@ -14,7 +14,7 @@ def reverseString(s: list[str]) -> None:
         left+=1
         right-=1
 
-class TestContainsSum(unittest.TestCase):
+class TestReverseString(unittest.TestCase):
 
     def test_reverseString_success(self):
         letters = ["h", "e", "l", "l", "o"]

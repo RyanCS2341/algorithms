@@ -10,7 +10,7 @@ def removeDuplicates(nums: list[int]) -> int:
         return replaceIndex;
                 
 
-class TestContainsSum(unittest.TestCase):
+class TestRemoveDuplicates(unittest.TestCase):
 
     def test_removeDuplicates_oneunique(self):
         nums = [1, 1, 1, 1, 1, 1, 1, 1]
